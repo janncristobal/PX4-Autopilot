@@ -69,7 +69,7 @@ void ActuatorEffectivenessTilts::updateParams()
 		return;
 	}
 
-	_count = count;
+	_count = count; //AVL-JC changed from count to 8
 
 	for (int i = 0; i < count; i++) {
 		param_get(_param_handles[i].control, (int32_t *)&_params[i].control);

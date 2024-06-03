@@ -29,29 +29,29 @@ set MAV_TYPE 2
 
 # Set all 8 channels
 set PWM_OUT 1234
-set PWM_AUX_OUT 12345678
+set PWM_AUX_OUT 1234
 param set-default CA_ROTOR_COUNT 4
-param set-default CA_SV_TL_COUNT 8 # line 59 in ActuatorEffectivenessThrustVectoringMultirotor.cpp
+param set-default CA_SV_TL_COUNT 4 # line 59 in ActuatorEffectivenessThrustVectoringMultirotor.cpp
 
 #X-forward, Y-right
 #CW:-1, CCW:1
-param set-default CA_ROTOR0_PX 0.19 #M1 CCW
-param set-default CA_ROTOR0_PY 0.19
+param set-default CA_ROTOR0_PX 0.00 #M1 CCW
+param set-default CA_ROTOR0_PY 0.27
 param set-default CA_ROTOR0_PZ 0.00
 param set-default CA_ROTOR0_KM 0.05
 
-param set-default CA_ROTOR1_PX -0.19 #M2 CCW
-param set-default CA_ROTOR1_PY -0.19
+param set-default CA_ROTOR1_PX 0.00 #M2 CCW
+param set-default CA_ROTOR1_PY -0.27
 param set-default CA_ROTOR1_PZ 0.00
 param set-default CA_ROTOR1_KM 0.05
 
-param set-default CA_ROTOR2_PX 0.19 #M3 CW
-param set-default CA_ROTOR2_PY -0.19
+param set-default CA_ROTOR2_PX 0.27 #M3 CW
+param set-default CA_ROTOR2_PY 0.00
 param set-default CA_ROTOR2_PZ 0.00
 param set-default CA_ROTOR2_KM -0.05
 
-param set-default CA_ROTOR3_PX -0.19 #M4 CW
-param set-default CA_ROTOR3_PY 0.19
+param set-default CA_ROTOR3_PX -0.27 #M4 CW
+param set-default CA_ROTOR3_PY 0.00
 param set-default CA_ROTOR3_PZ 0.00
 param set-default CA_ROTOR3_KM -0.05
 
@@ -65,10 +65,10 @@ param set-default PWM_MAIN_FUNC9 201 #servo
 param set-default PWM_MAIN_FUNC10 202
 param set-default PWM_MAIN_FUNC11 203
 param set-default PWM_MAIN_FUNC12 204
-param set-default PWM_MAIN_FUNC13 205
-param set-default PWM_MAIN_FUNC14 206
-param set-default PWM_MAIN_FUNC15 207
-param set-default PWM_MAIN_FUNC16 208
+# param set-default PWM_MAIN_FUNC13 205
+# param set-default PWM_MAIN_FUNC14 206
+# param set-default PWM_MAIN_FUNC15 207
+# param set-default PWM_MAIN_FUNC16 208
 
 # Limits for tilting angles
 param set-default CA_SV_TL0_MAXA 30
@@ -79,13 +79,13 @@ param set-default CA_SV_TL2_MAXA 30
 param set-default CA_SV_TL2_MINA -30
 param set-default CA_SV_TL3_MAXA 30
 param set-default CA_SV_TL3_MINA -30
-param set-default CA_SV_TL4_MAXA 30
-param set-default CA_SV_TL4_MINA -30
-param set-default CA_SV_TL5_MAXA 30
-param set-default CA_SV_TL5_MINA -30
-param set-default CA_SV_TL6_MAXA 30
-param set-default CA_SV_TL6_MINA -30
-param set-default CA_SV_TL7_MAXA 30
-param set-default CA_SV_TL7_MINA -30
+# param set-default CA_SV_TL4_MAXA 30
+# param set-default CA_SV_TL4_MINA -30
+# param set-default CA_SV_TL5_MAXA 30
+# param set-default CA_SV_TL5_MINA -30
+# param set-default CA_SV_TL6_MAXA 30
+# param set-default CA_SV_TL6_MINA -30
+# param set-default CA_SV_TL7_MAXA 30
+# param set-default CA_SV_TL7_MINA -30
 
 
