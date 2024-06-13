@@ -104,6 +104,7 @@ px4_add_romfs_files(
 	17002_flightgear_tf-g2
 	# AVL-JC
 	21000_gazebo-classic_SAT_QUADP
+	21500_gazebo-classic_SAT_QUADX
 	22000_gazebo-classic_TV_QUADX
 
 	# [22000, 22999] Reserve for custom models

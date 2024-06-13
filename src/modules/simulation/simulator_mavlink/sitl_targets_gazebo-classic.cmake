@@ -106,6 +106,7 @@ if(gazebo_FOUND)
 		uuv_hippocampus
 		TV_QUADX
 		SAT_QUADP
+		SAT_QUADX
 	)
 
 	set(worlds
